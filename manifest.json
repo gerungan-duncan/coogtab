@@ -1,18 +1,17 @@
 {
- "manifest_version": 2,
+ “manifest_version”: 2,
 
- "name": "CoogTab",
- "description": "New tab replacement that provides helpful links and info about University of Houston",
- "version": "1",
- "author": "Duncan Gerungan",
-
-
+ “name”: “CoogTab”,
+ “description”: “New tab replacement that provides helpful links and info about University of Houston”,
+ “version”: “1”,
+ “author”: “Duncan Gerungan”,
 
 "browser_action": {
-   "default_title": "Go Coogs!"
+   "default_icon": "tab-icon.png",
+   “default_title”: “Go Coogs!”
  },
-"chrome_url_overrides" : {
-  "newtab": "newtab.html"
+“chrome_url_overrides” : {
+  “newtab”: “newtab.html”
 },
- "permissions": ["activeTab"]
+ “permissions”: [“activeTab”]
 }
