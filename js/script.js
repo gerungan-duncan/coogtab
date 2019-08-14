@@ -1,0 +1,3 @@
+function enterName(){
+    document.getElementById()
+}
